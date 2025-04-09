@@ -34,7 +34,7 @@ A secure, RESTful backend system built with **Django**, **Django REST Framework 
 
 ## Setup
 
-1. Clone the repo: `git clone <repo-url>`
+1. Clone the repo: `git clone https://github.com/123guddukumar/Healthcare-Backend.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up PostgreSQL and update `.env` with your credentials.
 4. Run migrations: `python manage.py makemigrations && python manage.py migrate`
@@ -43,6 +43,7 @@ A secure, RESTful backend system built with **Django**, **Django REST Framework 
 
 **Create .env file**:
     ```base
+    
     SECRET_KEY=your-secret-key-here
     DEBUG=True
     DB_NAME=healthcare_db
@@ -54,7 +55,7 @@ A secure, RESTful backend system built with **Django**, **Django REST Framework 
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/123guddukumar/Healthcare-Backend.git
    cd healthcare_backend
    pip install -r requirements.txt
    python manage.py makemigrations
