@@ -1,0 +1,58 @@
+# Python/Django General
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+dist/
+build/
+*.log
+
+# Django Specific
+*.sqlite3
+media/
+staticfiles/
+migrations/__pycache__/
+
+# Environment Variables
+.env
+*.env
+.env.*
+!.env.example  # Include an example env file if you create one
+
+# Database
+db.sqlite3
+*.db
+
+# IDEs and Editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Testing/Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.backup
+*.tmp
